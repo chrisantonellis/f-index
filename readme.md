@@ -1,8 +1,6 @@
 f-index
 =======
-v1.0.1
-Chris Antonellis August 2012
-www.chrisantonellis.com
+v1.0.1 &sdot; Chris Antonellis &sdot; August 2012 &sdot; www.chrisantonellis.com
 
 Documentation
 =============
