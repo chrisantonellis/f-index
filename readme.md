@@ -1,4 +1,3 @@
-
 f-index
 =======
 v1.0.0
@@ -17,5 +16,6 @@ Changelog
 9/2012 v1.0.1
 - Fixed various syntax errors
 - Removed borders from icons (IE)
+
 8/2012 v1.0.0
 - Initial release
