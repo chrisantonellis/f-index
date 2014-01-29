@@ -1,6 +1,6 @@
 f-index
 =======
-v1.0.0
+v1.0.1
 Chris Antonellis August 2012
 www.chrisantonellis.com
 
