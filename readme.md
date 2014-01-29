@@ -2,6 +2,10 @@ f-index
 =======
 v1.0.1 &sdot; Chris Antonellis &sdot; August 2012 &sdot; www.chrisantonellis.com
 
+Example
+=======
+- http://www.chrisantonellis.com/files/
+
 Documentation
 =============
 - Upload the f-index folder to your server root
