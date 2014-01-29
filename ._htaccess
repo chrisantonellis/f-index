@@ -1,0 +1,78 @@
+
+# ---------------------------------------
+# Enable Fancy Indexing -----------------
+# ---------------------------------------
+
+# Enable creation of index files for this directory and sub directories
+Options +Indexes
+
+# Enable f-index
+IndexOptions FancyIndexing
+
+# Define location of header & footer HTML files
+HeaderName /f-index/header.php
+ReadmeName /f-index/footer.html
+
+# ---------------------------------------
+# File Listing Layout Definitions -------
+# ---------------------------------------
+
+# Make the directory listing be wrapped in a HTML table
+IndexOptions HTMLTable
+
+# Make directories come first in the directory listing
+IndexOptions FoldersFirst
+
+# Allow the name column to become as wide as it needs to be
+IndexOptions NameWidth=*
+
+# Suppress automatic html header, horizontal rules
+IndexOptions SuppressHTMLPreamble SuppressRules
+
+# Suppress description, last modified columns
+IndexOptions SuppressDescription SuppressLastModified
+
+# Ignore filename case when sorting
+IndexOptions IgnoreCase
+
+# Sort filenames with version number (ex file v0.1.2) correctly
+IndexOptions VersionSort
+
+IndexOptions XHTML
+
+# ---------------------------------------
+# Icon Definitions ----------------------
+# ---------------------------------------
+
+# Makes icons also function as links
+IndexOptions IconsAreLinks
+
+# Define icon locations
+DefaultIcon /f-index/icons/document.png
+
+AddIcon /f-index/icons/blank.gif									^^BLANKICON^^
+AddIcon /f-index/icons/directory.png							^^DIRECTORY^^
+AddIcon /f-index/icons/arrow-left.png						..
+
+AddIcon /f-index/icons/android.png							.apk
+AddIcon /f-index/icons/configuration.png				.ini
+AddIcon /f-index/icons/information.png					.nfo
+AddIcon /f-index/icons/image.png								.jpg .jpeg .jfif .gif .tiff .png .raw .bmp
+AddIcon /f-index/icons/database.png							.db .sql
+AddIcon /f-index/icons/directory-compressed.png	.comp .zip .tar .tgz .rar .7z			
+AddIcon /f-index/icons/document-access.png			.ade .adp .adn .accdb .accdr .accdt .mdb .mda .mdn .mdt .mdw .mdf .mde .accde .mam .maq .mar .mat .maf
+AddIcon /f-index/icons/document-binary.png			.bin 
+AddIcon /f-index/icons/document-code.png				.htm .html .xhtml .css .less
+AddIcon /f-index/icons/document-excel.png				.xls .xla .xlb .xlc .xld .xlk .xll .xlm .xlt .xlv .xlw .xlsx .xlsm .xltx .xltm .xlsb .xlam
+AddIcon /f-index/icons/document-flash-movie.png	.flv .f4v .f4p .f4a .f4b
+AddIcon /f-index/icons/document-flash.png				.fla .swf .swt .swc
+AddIcon /f-index/icons/document-illustrator.png	.ai .eps .ait
+AddIcon /f-index/icons/document-music.png				.mp3 .wav .ogg .flac
+AddIcon /f-index/icons/document-outlook.png			.pst .ost .nk2 .oft .srs
+AddIcon /f-index/icons/document-pdf.png					.pdf
+AddIcon /f-index/icons/document-photoshop.png		.psd .psb
+AddIcon /f-index/icons/document-php.png					.php .php3 .phtml
+AddIcon /f-index/icons/document-powerpoint.png	.ppt .pptx .pptm .potx .potm .ppam .ppsx .ppsm .sldx .sldm .thmx
+AddIcon /f-index/icons/document-text.png				.txt
+AddIcon /f-index/icons/document-word.png				.doc .docx .docm .dotx .dotm
+AddIcon /f-index/icons/document-xaml.png				.xml .xaml
